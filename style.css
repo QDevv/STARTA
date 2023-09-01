@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* padding-top: 25px; */
+}
+main{
+    position: relative;
+    /* padding-top: 35px; */
+    /* border: 2px solid red; */
+    height:100vw;
+    overflow: hidden;
+}
+.bgrc-wallpaper img{
+   width: 100%;
+   height: 100%;
+}
+.bgrc-wallpaper{
+    width: 100vw;
+    /* height: 100vh;  */
+    position: absolute;
+    z-index: -1;
+}
+header{
+    width: 99vw;
+    /* border-radius: 50px; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid rgb(70, 92, 165); */
+    margin: auto;
+    /* padding: 35px; */
+    background-color: white;
+    /* position: absolute;
+    top: 35px;
+    left: 10%; */
+    position: fixed;
+    color: rgb(37, 75, 156);
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    
+  
+}
+.logo-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+.logo-wrapper{
+    width: 200px;
+    margin-right: auto;
+}
+header ul{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+header ul :hover{
+    color: #f56101;
+}
+
+.Sign-in a{
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  text-decoration: none;
+}
+.Sign-in ul{
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: black;
+}
+.Sign-in button{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    /* border:1px solid rgb(37, 75, 156); */
+    background-color: #f56101;
+    border: none;
+    color: white;
+}
+.Project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20%;
+    color:orange(43, 0, 255, 0.432);
+    font-family: 'EB Garamond', sans-serif; 
+    font-size: 20px;
+    font-weight: 900;
+    color: #f56101;
+}
+.Project button{
+    width: 270px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:white ;
+    border: none;
+    font-size: 20px;
+    color: #f56101;
+    margin-right: auto;
+    /* box-shadow: 2px 2px 2px rgb(43, 41, 41); */
+
+    /* position: absolute;
+    top: 30%; */
+}
+.Project button:hover, .Sign-in button:hover{
+    color: #f56101;
+    background-color:#f1c1a0;
+}
+.Project h1{
+    margin-right: auto;
+    /* border: 2px solid black; */
+    width:310px;
+    color: ;
+    font-size: 65px;
+    margin-top: -90px;
+}
+
+.About-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid red ;
+}
+.Text{
+}
+.About-us button{
+    width:150px ;
+    height: 30px;
+    border: 1.5px solid #f56101;
+    border-radius: 5px;
+    background-color: white;
+    color: #f56101;
+}
