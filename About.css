@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  padding: 30px;
+  color: #0c4f6c;
+}
+header h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.starta-container {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff7ec;
+  padding-top: 27px;
+  padding-left: 66px;
+}
+
+.we-are-starta {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  flex-direction: column;
+  width: 50%;
+  text-align: left;
+}
+.we-are-starta h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+.we-are-starta p {
+  margin-bottom: 32px;
+  width: 560px;
+}
+.we-are-starta h6 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Starta-cladding-wrapper {
+  width: 618px;
+}
+
+.Starta-cladding-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.why-choose-us-container {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+.why-choose-us-img-wrapper {
+  width: 679px;
+}
+.why-choose-us-img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.why-choose-us-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding-left: 51px;
+}
+.empowering,
+.impact,
+.momentum,
+.simplicity {
+  display: flex;
+  flex-direction: column;
+}
+
+.empowering h2,
+.impact h2,
+.momentum h2,
+.simplicity h2 {
+    font-size:16px ;
+    font-weight: bold;
+}
+
+
+
+.impact p
+{
+
+    width: 260px ;
+  font-size: 11px;
+
+    
+}
+.empowering p{
+    width: 260px ;
+  font-size: 11px;
+
+
+}
+.simplicity p {
+    width: 260px;
+  font-size: 11px;
+
+}
+.momentum p{
+    width: 260px;
+  font-size: 11px;
+
+}
+
+.impact-x-empowering-container,
+.simplicity-x-momentum-container {
+  display: flex;
+  gap:64px ;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.last-p{
+    font-size: 16px;
+    font-weight: 500;
+    width: 600px;
+}
+
+.why-choose-us-text h2{
+    margin: auto;
+}
