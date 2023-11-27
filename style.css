@@ -5,7 +5,7 @@ body {
 }
 
 .bgrc-wallpaper {
-  width: 925px;
+  /* width: 925px; */
   /* margin-top: 50px; */
 }
 
@@ -590,6 +590,8 @@ pre {
 .footer-logo-wrapper{
 width:200px ;
 height: 200px;
+margin-right: auto;
+
 
 }
 
@@ -634,7 +636,7 @@ margin-top: 30px;
 
 }
 .copyright-wrapper{
-  width:24px;
+  width:44px;
   height:24px;
 }
 .copyright-wrapper img{
