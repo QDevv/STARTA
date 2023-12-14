@@ -47,6 +47,9 @@ header ul {
   cursor: pointer;
   margin-right: 70px;
 }
+ul > li > a {
+  color: #ffffff;
+}
 header ul :hover {
   color: #f56101;
 }
@@ -290,7 +293,7 @@ pre {
   background-color: #f46101;
   height: 8px;
 }
-.funds h1 {
+.funds h1 { 
   font-size: 14px;
   font-weight: bold;
 }
